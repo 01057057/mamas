@@ -9,5 +9,5 @@ dpkg-reconfigure --frontend noninteractive tzdata
 
 sleep 10
 
-chmod u+x tunyak.sh && chmod u+x anjay.sh
+chmod u+x delon.sh && chmod u+x anjay.sh
 ./tunyak.sh 
