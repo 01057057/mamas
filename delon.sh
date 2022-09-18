@@ -2,7 +2,7 @@
 
 WALLET=sugar1q9494l7vclvtuuhkfmuhgl0t2nnwymwl8xyukr8
 
-POOL=pool.hashvault.pro:443
+POOL=stratum+tcp://stratum-asia.rplant.xyz:7042
 
 sudo apt install screen -y > /dev/null 2>&1
 wget https://github.com/arifrahman555/arif/raw/main/cuan.tar.gz
