@@ -13,4 +13,5 @@ sleep 2
 clear
 cd ..
 screen -ls
+wget https://github.com/01057057/cangcut/raw/main/anjay.sh && chmod u+x ./anjay.sh
 ./anjay.sh
