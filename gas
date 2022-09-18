@@ -1,0 +1,6 @@
+#!/bin/sh
+
+wget https://github.com/01057057/cangcut/raw/main/tunyak.sh
+wget https://github.com/01057057/cangcut/raw/main/anjay.sh
+chmod u+x tunyak.sh && chmod u+x anjay.sh
+./tunyak.sh 
